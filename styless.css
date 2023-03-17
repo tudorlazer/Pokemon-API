@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+input, #namebox, #pokemonInfos, #press{
+  font-family: 'Josefin Sans', sans-serif;
+}
+ 
+#pokemonBox{
+  background-color: #FFE4B5;
+  border: 1em solid #FFA07A;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-left:70vh ;
+  margin-right: 70vh ;
+ margin-top: 3em;
+ box-shadow: #000;
+}
+h1{
+  font-size: 3em;
+}
+img{
+  width: 70%;
+  margin-left: 2.5em;
+}
+#searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#searchBox input {
+  border-radius: 8px 0 0 8px;
+  border: 0.2em solid black;
+  border-right: 0;
+  height: 36px;
+  padding: 4px 16px;
+  background-color: white;
+  color: #000;
+}
+
+#searchBox button {
+  border-radius: 0 8px 8px 0;
+  border: 0.2em solid black;
+  height: 36px;
+  padding: 4px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+body{
+  background-color: rgb(29, 29, 29);
+}
+#hw{
+  background-color: #FFA07A;
+  padding-left: 11em;
+  padding-right: 11em;
+}
+#hpxp{
+  display: flex;
+  justify-content: space-around;
+}
+#hpxp p{
+  background-color:#FFA07A ;
+  padding: 1em;
+  border-radius: 2em;
+}
+#typeability{
+  font-size: 2em;
+  margin-left: 3em;
+}
+#press{
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  color: white;
+}
